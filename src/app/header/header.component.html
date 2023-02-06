@@ -1,24 +1,25 @@
 <div class="contenedor-principal-header">
   <div class="container-header bg-dark">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
+    <header class="py-3 px-3">
+      <ul class="nav nav-pills d-flex flex-row justify-content-between align-items-center">
         <div class="dropdown">
-          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong>mdo</strong>
+          <app-sidebar></app-sidebar>
+        </div>
+        
+          <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img class="mx-1 rounded" src="https://dummyimage.com/32x32/0861f2/fffaaa"/>
+            <strong>User</strong>
           </a>
           <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Preferencias</a></li>
+            <li><a class="dropdown-item" href="#">Cambiar contraseña</a></li>
+            <li><a class="dropdown-item" href="#">Reportes</a></li>
+            <li><a class="dropdown-item" href="#">Sincronizar</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
+            <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
           </ul>
         </div>
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
       </ul>
     </header>
   </div>

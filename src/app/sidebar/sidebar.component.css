@@ -1,3 +1,6 @@
 .contenedor-sidebar{
-   top: -11em;
+   z-index: 1;
+   inset: -60px auto auto -17px !important; 
+   width: 280px;
+   height: 592px;
 }

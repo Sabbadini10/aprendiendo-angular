@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-block-end: -72px;
     width: 100%;
 }
 
 .container-header{
-   
-    width: 80%;
+    width: 100%;
 }
+
